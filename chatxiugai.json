@@ -1,5 +1,4 @@
 {
-  "spider": "./fty.jar;md5;dda5ab42b722f13761900308a6caff89",
   "sites": [
     {
       "key": "优酷",
@@ -1228,4 +1227,5 @@
     "cms.qdwght.com"
   ],
   "wallpaper": "https://api.dujin.org/bing/1920.php",
+  "spider": "./fty.jar;md5;a0e22e79a8fed34ecb3b1f09399f4f50"
 }
