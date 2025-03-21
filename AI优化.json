@@ -1,0 +1,131 @@
+{
+  "spider": "./fty.jar;md5;a0e22e79a8fed34ecb3b1f09399f4f50",
+  "sites": [
+    {
+      "key": "豆瓣",
+      "name": "豆瓣",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "./js/drpy.js"
+    }
+  ],
+  "lives": [
+    {
+      "group": "VIP直播",
+      "channels": [
+        {
+          "name": "VIP直播源",
+          "urls": [
+            "about:blank"
+          ]
+        }
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析接口1",
+      "type": 0,
+      "url": "https://jx.77flv.cc/?url="
+    },
+    {
+      "name": "解析接口2",
+      "type": 0,
+      "url": "https://jx.dmflv.cc/?url="
+    },
+    {
+      "name": "解析接口3",
+      "type": 0,
+      "url": "https://jx.xymp4.cc/?url="
+    },
+    {
+      "name": "解析接口4",
+      "type": 0,
+      "url": "https://www.yemu.xyz/?url="
+    },
+    {
+      "name": "解析接口5",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "解析接口6",
+      "type": 0,
+      "url": "https://jx.7kjx.com/?url="
+    },
+    {
+      "name": "解析接口7",
+      "type": 0,
+      "url": "https://www.8090.la/8090/?url="
+    },
+    {
+      "name": "解析接口8",
+      "type": 0,
+      "url": "https://api.qianqi.net/vip/?url="
+    },
+    {
+      "name": "解析接口9",
+      "type": 0,
+      "url": "https://jx.mmkv.cn/tv.php?url="
+    },
+    {
+      "name": "解析接口10",
+      "type": 0,
+      "url": "https://jx.973973.xyz/?url="
+    },
+    {
+      "name": "解析接口11",
+      "type": 0,
+      "url": "https://jx.2s0.cn/player/?url="
+    },
+    {
+      "name": "解析接口12",
+      "type": 0,
+      "url": "https://jx.nnxv.cn/tv.php?url="
+    }
+  ],
+  "flags": [
+    "vip"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "www.google-analytics.com"
+  ],
+  "wallpaper": "https://api.dujin.org/bing/1920.php"
+}
